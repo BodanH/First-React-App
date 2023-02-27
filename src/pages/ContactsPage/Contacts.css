@@ -1,0 +1,122 @@
+main {
+  flex: 1 1 auto;
+  background-color: transparent;
+}
+main .main__section {
+  width: 100%;
+  transition: backrond-color 1s ease 0s;
+}
+main .main__section .section-main-container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 70px;
+  padding-bottom: 162px;
+}
+main .main__section .section-main-container__content .section-main-content__title {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #5C62EC;
+}
+main .main__section .section-main-container__content .section-main-content__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .location__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .telegram__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .mail__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .location__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .telegram__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .mail__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .location__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .telegram__title,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .mail__title {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .location__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .telegram__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .mail__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .location__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .telegram__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .mail__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .location__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .telegram__description,
+main .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .mail__description {
+  margin: 0px;
+  max-width: 571px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #171718;
+}
+@media (max-width: 787px) {
+  main .main__section .section-main-container__content {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+
+body.dark .main__section {
+  background-color: transparent;
+}
+body.dark .main__section .section-main-container__content .section-main-content__title {
+  color: #7074e7;
+}
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .location__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .telegram__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .mail__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .location__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .telegram__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .mail__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .location__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .telegram__title,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .mail__title {
+  color: #fff;
+}
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .location__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .telegram__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__location .mail__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .location__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .telegram__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__telegram .mail__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .location__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .telegram__description,
+body.dark .main__section .section-main-container__content .section-main-content__contacts .section-main-content__mail .mail__description {
+  color: #fff;
+}
+
+/*------main----------*/
+[class*=__container] {
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+@media (max-width: 787px) {
+  [class*=__container] {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,159 @@
+main {
+  flex: 1 1 auto;
+  background-color: transparent;
+  /*------title section----------*/
+}
+main .section__title {
+  padding-top: 34px;
+  background-color: #171718;
+  background-image: url("../../images/title__background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+main .section__title .title-section-container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 148px;
+  padding-bottom: 248px;
+}
+main .section__title .title-section-container__content .title-section-content__subtitle {
+  margin: 0px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  color: #FAFAFA;
+  margin-bottom: 14px;
+}
+main .section__title .title-section-container__content span {
+  color: #5C62EC;
+}
+main .section__title .title-section-container__content .title-section-content__title {
+  margin: 0px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  color: #FAFAFA;
+  margin-bottom: 20px;
+}
+main .section__title .title-section-container__content .title-section-content__description {
+  margin: 0px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+main .section__title .title-section-container__content .title-section-content__button {
+  padding: 12px 28px;
+  background-color: #5C62EC;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+}
+@media (max-width: 787px) {
+  main .section__title .title-section-container__content {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+}
+main .skills__section {
+  width: 100%;
+  background-color: transparent;
+  transition: backrond-color 1s ease 0s;
+}
+main .skills__section .section-skills-container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 70px;
+  padding-bottom: 162px;
+}
+main .skills__section .section-skills-container__content .section-skills-content__title {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #5C62EC;
+}
+main .skills__section .section-skills-container__content .section-skills-content__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-back-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end .skills-front-end__title, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end .skills-back-end__title, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-back-end .skills-front-end__title, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-back-end .skills-back-end__title {
+  font-weight: 700;
+  margin: 0px;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #171718;
+  margin-bottom: 20px;
+}
+main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end .skills-front-end__description, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end .skills-back-end__description, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-back-end .skills-front-end__description, main .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-back-end .skills-back-end__description {
+  max-width: 571px;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #171718;
+}
+@media (max-width: 787px) {
+  main .skills__section .section-skills-container__content {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+
+body.dark {
+  background: #171718;
+}
+body.dark .skills__section {
+  background-color: transparent;
+}
+body.dark .skills__section .section-skills-container__content .section-skills-content__title {
+  color: #6a6eeb;
+}
+body.dark .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end .skills-front-end__title {
+  color: #fff;
+}
+body.dark .skills__section .section-skills-container__content .section-skills-content__skills .section-skills-content__skills-front-end .skills-front-end__description {
+  color: #fff;
+}
+
+[class*=__container] {
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+@media (max-width: 992px) {
+  [class*=__container] {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
